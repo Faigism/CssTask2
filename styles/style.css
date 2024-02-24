@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 75px;
+}
+.header div {
+  margin: 0 10px;
+}
+.header div a {
+  font-size: 16px;
+  padding: 0 10px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  color: black;
+}
+.header div:first-child > a:first-child {
+  font-weight: bold;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+}
+.header div:first-child > a:first-child:hover {
+  background-color: rgb(196, 190, 190);
+  transition: 0.2s;
+}
+
+.architect_img {
+  position: relative;
+}
+.architect_img img {
+  width: 100%;
+  height: 600px;
+}
+.architect_img div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 260px;
+  right: 150px;
+  width: 100%;
+}
+.architect_img div h1 {
+  color: #f7f7f7;
+  background-color: #181818;
+  opacity: 0.8;
+  padding: 10px;
+  font-size: 50px;
+}
+.architect_img div h3 {
+  color: #f7f7f7;
+  font-size: 25px;
+  letter-spacing: 8px;
+}
+.architect_projects {
+  margin-top: 50px;
+}
+.box_projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  height: 600px;
+}
+.box_projects div {
+  width: 300px;
+  padding: 10px;
+  position: relative;
+}
+.box_projects div span {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 10px;
+  background-color: #181818;
+  color: #f7f7f7;
+  padding: 10px;
+}
+.architect_projects h3 {
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 29.5px;
+}
